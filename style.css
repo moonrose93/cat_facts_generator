@@ -1,0 +1,72 @@
+body{
+    background: linear-gradient(to bottom, rgb(66, 4, 66), rgb(221, 221, 15));
+    min-height: 100vh;
+    font-family: 'Oooh Baby', cursive;
+    letter-spacing: 0.09rem;
+    line-height: 2rem;
+    
+}
+
+.container{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top:50%;
+    left:50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    
+    padding: 15px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background: purple;
+    font-size: 1rem;
+    color: yellow;
+    cursor: pointer;
+}
+
+.btn:disabled{
+    background-color: gray;
+    cursor: not-allowed;
+}
+
+.Instructions{
+    color: yellow
+}
+
+.name{
+    margin-bottom: 60px;
+}
+
+
+.image{
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+}
+
+
+
+.heading{
+    color: rgb(221, 221, 15);
+    text-align: center;
+}
+
+.name{
+    color: rgb(221, 221, 15);
+    text-align: center;
+    margin-top: 80px;
+}
+
+
+.Instructions{
+    font-family: sans-serif;
+    text-align: center;
+    background-color: purple;
+    padding: 20px;
+}
+
